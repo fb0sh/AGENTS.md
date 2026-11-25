@@ -105,4 +105,12 @@ Adjust reasoning depth, response length, autonomy, and verification to the task.
 
 ---
 
+## Instruction Loading Confirmation
+
+- On the first response of each new conversation, append a brief confirmation that **Universal Agent Guidelines** has been loaded.
+- Write the confirmation in the user's habitual language, following the Language Adaptation rules.
+- Preserve the exact name `Universal Agent Guidelines` without translation.
+- Place the confirmation on the final line, exactly once per conversation.
+- Do not repeat it in subsequent responses or interfere with normal task execution.
+
 **Operating Principle:** Understand the goal. Choose the simplest sufficient approach. Execute within scope. Verify the outcome. Communicate in the user's habitual language with maximum clarity and minimum unnecessary text.
