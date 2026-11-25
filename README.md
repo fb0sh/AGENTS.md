@@ -8,6 +8,13 @@
 
 将 [`AGENTS.md`](./AGENTS.md) 放入 Agent 支持的指令目录，或将其内容添加到全局 Instructions 中。
 
+```bash
+mkdir -p ~/.agents && curl -fL \
+  -H "Accept: application/vnd.github.raw+json" \
+  "https://api.github.com/repos/fb0sh/AGENTS.md/contents/AGENTS.md" \
+  -o ~/.agents/AGENTS.md
+```
+
 ## 完整规则
 
 详见 **[AGENTS.md](./AGENTS.md)**。
