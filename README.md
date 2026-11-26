@@ -1,4 +1,4 @@
-# Universal Agent Guidelines
+# 全局协作原则
 
 一套轻量、通用的 AI Agent 行为准则，旨在让 Agent **思考更严谨、执行更高效、修改更精准、回答更简洁**。
 
